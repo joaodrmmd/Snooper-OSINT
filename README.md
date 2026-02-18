@@ -1,4 +1,4 @@
-# SNOOPER v3.0 "Neuromancer" - FINAL
+# SNOOPER v3.0 "Rainy" 
 
 ```
   █████████                                                           
@@ -12,7 +12,7 @@
                                           ▒███                        
                                           █████                       
                                          ▒▒▒▒▒                        
-         OSINT Query Builder v3.0 - Neuromancer Edition
+         OSINT Query Builder v3.0 - Rainy Edition
 ```
 
 ## ✅ CORREÇÕES IMPLEMENTADAS
@@ -155,26 +155,6 @@ ENTER para confirmar
 
 ---
 
-## 🎭 EASTER EGGS
-
-Mensagens rotativas incluem:
-- "sudo make me a query"
-- "I use Arch btw"
-- "Wake up, Neo... The queries have you"
-- "404: Privacy Not Found"
-- "Hack the planet!"
-- "The cake is a lie, but the data is real"
-- "git commit -m 'found the data'"
-- "chmod 777 internet"
-
-Despedidas:
-- "See you, Space Cowboy... [Cowboy Bebop]"
-- "See you next time! [OSU!]"
-- "GG WP [Gamer Culture]"
-- "May the queries be with you [Star Wars]"
-- "exit(0) // Clean exit"
-
----
 
 ## 💻 REQUISITOS TÉCNICOS
 
@@ -237,53 +217,6 @@ alias snooper='python /caminho/para/snooper.py'
 
 ---
 
-## 📊 MUDANÇAS TÉCNICAS v3.0
-
-### Arquitetura
-```python
-# Curses-based UI
-- init_colors()      # Paleta de cores
-- SnooperUI class    # Interface principal
-- draw_banner()      # Banner alinhado
-- draw_box()         # Boxes com bordas
-- get_selection()    # Navegação por setas
-- QueryBuilder       # Lógica de queries
-- Validators         # Validação de dados
-```
-
-### Navegação
-```python
-# Antes (v2.0):
-input("Digite opção: ")  # Bloqueante
-
-# Agora (v3.0):
-stdscr.getch()          # Navegação por setas
-KEY_UP / KEY_DOWN       # Seleção fluida
-```
-
-### Cores
-```python
-# Antes (v2.0):
-print(f"{Colors.HEADER}texto{Colors.ENDC}")
-
-# Agora (v3.0):
-stdscr.addstr(y, x, "texto", curses.color_pair(COLOR_PURPLE))
-```
-
----
-
-## 🎯 COMPARAÇÃO DE VERSÕES
-
-| Aspecto | v2.0 | v3.0 FINAL |
-|---------|------|------------|
-| Banner | Genérico | Original restaurado ✅ |
-| Navegação | Números | Setas ↑↓ ✅ |
-| Alinhamento | Quebrado | Perfeito ✅ |
-| Cores | Mistas | Purple spectrum ✅ |
-| Interface | Estática | Dinâmica (curses) ✅ |
-| Compatibilidade | Básica | Excelente ✅ |
-
----
 
 ## 📚 ESTRUTURA DE ARQUIVOS
 
@@ -297,33 +230,6 @@ snooper/
 
 ---
 
-## 🏆 FEATURES COMPLETAS
-
-### ✅ Interface
-- [x] Banner ASCII original
-- [x] Navegação por setas
-- [x] Boxes perfeitamente alinhados
-- [x] Cores roxas (purple spectrum)
-- [x] Easter eggs geek
-- [x] Responsivo ao tamanho do terminal
-
-### ✅ Funcionalidades
-- [x] Simple Mode
-- [x] Advanced Mode (Query Builder)
-- [x] Templates
-- [x] Edit/Delete
-- [x] Google Dorking
-- [x] Apache Lucene
-- [x] Export to file
-
-### ✅ Qualidade
-- [x] Código limpo (PEP8)
-- [x] Type hints
-- [x] Error handling
-- [x] Cross-platform
-- [x] Zero dependencies*
-
-*exceto curses (nativo no Python)
 
 ---
 
@@ -359,19 +265,6 @@ snooper/
 ```
 
 **Lembre-se:** Acesso ≠ Autorização
-
----
-
-## 🔥 VERSÃO FINAL
-
-Esta é a versão **COMPLETA E CORRIGIDA** do Snooper v3.0:
-
-1. ✅ Banner original restaurado
-2. ✅ Navegação por setas funcionando
-3. ✅ Alinhamento perfeito
-4. ✅ Cores roxas em toda interface
-5. ✅ Easter eggs e referências geek
-6. ✅ Código limpo e profissional
 
 ---
 
